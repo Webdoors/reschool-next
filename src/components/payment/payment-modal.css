@@ -1,0 +1,37 @@
+.pmodal{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    background: #0e0f10;
+    height: 300px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
+    z-index: 1730;
+}
+.pmessage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.pcourse_name{
+    color: #fff ;
+
+    
+}
+
+
+.picon{
+    cursor: pointer;
+    padding: 10px;
+}

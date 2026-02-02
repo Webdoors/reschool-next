@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow admin pages
+Disallow: /ka/admin
+Disallow: /en/admin
+
+# Sitemap location
+Sitemap: https://reschool.world/sitemap.xml

@@ -1,0 +1,19 @@
+.btn {
+  transition: opacity ease-in-out 0.4s;
+  opacity: 0.4 !important;
+  cursor: pointer;
+ 
+}
+.btn :hover {
+  opacity: 1;
+}
+
+.login_modal{
+  position: 'absolute' !important;
+  display: 'none';
+}
+
+.hide_modal{
+  /* position: absolute;
+  left: -500px; */
+}

@@ -1,0 +1,559 @@
+
+@font-face {
+  font-family: "NinoMtavruli";
+  src: local('NinoMtavruli'), url('/fonts/bpg_nino_mtavruli_normal.ttf') format('truetype');
+  src: local('NinoMtavruli'), url("/fonts/bpg_nino_mtavruli_normal.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+ 
+}
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: "NinoMtavruli", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.load-circle {
+  border-top-color: #f96152;
+}
+
+.cart-contents-count,
+.tagcloud a:hover,
+.to-top,
+.to-top:hover,
+.to-top::after,
+.blog-link-img,
+.portfolio-type-three .port-inner:hover .dbox-relative a span,
+.dsc-footer-style-3 h3:after,
+.ab-bordering,
+.abtw-soc a,
+.widget-border,
+.form-submit #submit,
+.navigation > li > a:before,
+.menu-wrapper > .menu > ul > li > a:before,
+.content-btn:hover,
+.box-small-icon:hover .trobica-icon,
+.to-top,
+.to-top::before {
+  background-color: #f96152;
+}
+
+.dsc-heading-style1 h5,
+a:hover,
+.content-title span,
+.table-content h3 > span,
+.slider-title span,
+.white-header .header-icon li.current-menu-parent > a,
+.white-header .navigation li.current-menu-parent > a,
+.white-header .menu-wrapper .menu ul li.current-menu-parent > a,
+.white-header .header-icon li.current_page_item > a,
+.white-header .navigation li.current_page_item > a,
+.white-header .menu-wrapper .menu ul li.current_page_item > a,
+.custom-absolute-menu .is-sticky .navigation li.current-menu-item a,
+.custom-absolute-menu .is-sticky .menu-wrapper .menu ul li.current-menu-item a,
+.custom-absolute-menu .is-sticky .navigation li a:hover,
+.custom-absolute-menu .is-sticky .menu-wrapper .menu ul li a:hover,
+.custom-absolute-menu .navigation .sub-menu li a:hover,
+.custom-absolute-menu .menu-wrapper .menu ul.sub-menu li a:hover,
+.white-header .navigation li a:hover,
+.white-header .menu-wrapper .navigation li ul li.current_page_item > a,
+.menu-wrapper .navigation li ul li.current_page_item > a,
+.menu-wrapper .menu ul li ul li.current_page_item > a,
+.white-header .menu-wrapper .menu ul li ul li.current_page_item > a,
+.white-header .menu-wrapper .navigation li ul li a:hover,
+.menu-wrapper .navigation li ul li a:hover,
+.menu-wrapper .menu ul li ul li a:hover,
+.white-header .menu-wrapper .menu ul li ul li a:hover,
+.header-icon li a:hover,
+.btn-nav-top a:hover,
+.slider-style-3 .slider-subtitle,
+.home-slider .slick-arrow:hover,
+.slider-btn:hover,
+.feature-1:hover .trobica-icon,
+.feature-2 .trobica-icon,
+.feature-2:hover .trobica-icon,
+.feature-3 .trobica-icon,
+.feature-3:hover .trobica-icon,
+.port-filter a.active,
+.port-filter a:hover,
+.portfolio-2 .port-inner:hover .dbox-relative h3 a:hover,
+.portfolio-2 .port-inner .port-dbox a span:hover,
+.portfolio-type-three .dbox-relative p,
+.team-1 p,
+.team-sicon li a:hover,
+.testimonial .rating-icon,
+.wpcf7-submit,
+.dark-page .wpcf7-submit,
+.content-btn,
+.color-bg .wpcf7-submit,
+span.your-email:before,
+span.your-name:before,
+span.your-message:before,
+.comment-form-email:before,
+span.cell-phone:before,
+span.subject:before,
+.footer a,
+.post-meta a,
+.post-meta li,
+.blog-post-list a:hover h3,
+.blog-2 .content-btn,
+a .entry-title:hover,
+.tags-bottom a:hover,
+.share-box a:hover,
+.related-cat i,
+h3.related-title:hover,
+#searchform::after,
+.tagcloud a,
+.tagcloud a:hover,
+.abtw-soc a:hover,
+.form-submit #submit:hover,
+.dsc-btn-style3:hover .elementor-button,
+.dsc-btn-style-4,
+code,
+.custom-absolute-menu .navigation .sub-menu li.current-menu-item a,
+.custom-absolute-menu .menu-wrapper .menu ul.sub-menu li.current-menu-item a {
+  color: #f96152;
+}
+
+.to-top,
+.content-title:after,
+::selection,
+::-moz-selection,
+.to-top::before,
+.to-top::after,
+.box-small-icon:hover .trobica-icon,
+.navigation > li > a:before,
+.menu-wrapper > .menu > ul > li > a:before,
+.custom-absolute-menu .is-sticky .navigation > li > a:before,
+.menu-wrapper > .menu > ul > li > a:before,
+.btn-nav-top a,
+.search-icon-header #searchform::after,
+.slider-line,
+.left-box-slider .slider-line,
+.center-box-slider .slider-line,
+.feature-4 .trobica-icon,
+.other-portfolio .port-box,
+.portfolio-type-three .port-inner:hover .dbox-relative a span,
+.team-2 .port-box,
+.content-btn:hover,
+.wpcf7-submit:hover,
+.dsc-footer-style-2 .mc4wp-form-fields input[type="submit"]:hover,
+.dsc-footer-style-3 h3:after,
+.dsc-footer-style-3 .mc4wp-form-fields input[type="submit"],
+.blog-link-img .bl-icon,
+.blog-link-img,
+.blog-gallery a i,
+.img-pagi,
+.widget-border,
+.ab-bordering,
+.abtw-soc a,
+.form-submit #submit,
+.dsc-btn-style3,
+.dsc-btn-style-4:hover,
+.tagcloud a:hover,
+.to-top,
+.portfolio-type-three .port-inner:hover .dbox-relative a span {
+  background: #f96152;
+}
+
+.p-table a,
+.blog-slider .slide-nav:hover,
+.work-content .slide-nav:hover,
+.tagcloud a:hover {
+  color: #fff;
+}
+
+.dsc-btn-style3 {
+  background-color: #fff;
+}
+
+blockquote,
+.box-small-icon:hover .trobica-icon,
+.cell-left-border,
+.cell-right-border,
+.menu-wrapper ul li ul,
+.btn-nav-top a,
+.btn-nav-top a:hover,
+.feature-4 .trobica-icon,
+.portfolio-2 .port-inner .port-dbox a span:hover,
+.portfolio-type-three .port-inner:hover .dbox-relative a span,
+.portfolio-type-three .port-inner:hover .dbox-relative h3,
+.team-sicon li a:hover,
+.team-1 .team-info,
+form input:focus,
+form textarea:focus,
+.comment-respond form input:focus,
+.comment-respond form textarea:focus,
+.wpcf7-submit,
+.dark-page .wpcf7-submit,
+.content-btn,
+.wpcf7-submit:hover,
+.error-title,
+.blog-2 .content-btn i,
+.tags-bottom a:hover,
+.share-box a:hover,
+#related_posts .related-inner:hover,
+.tagcloud a,
+.tagcloud a:hover,
+.form-submit #submit,
+.form-submit #submit:hover,
+.dsc-btn-style3:hover,
+.dsc-btn-style-4,
+.dsc-btn-style-4:hover,
+.wp-block-coblocks-click-to-tweet {
+  border-color: #f96152;
+}
+
+a:hover {
+  color: #f96152;
+}
+a {
+  color: #999999;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+body {
+  color: #666666;
+}
+.footer {
+  background-color: #202020;
+}
+.white-header .is-sticky .stuck-nav {
+  background-color: #ffffff;
+}
+.custom-absolute-menu {
+  border-color: #ffffff;
+}
+
+.cart-contents-count,
+.tagcloud a:hover,
+.to-top,
+.to-top:hover,
+.to-top::after,
+.blog-link-img,
+.portfolio-type-three .port-inner:hover .dbox-relative a span,
+.dsc-footer-style-3 h3:after,
+.ab-bordering,
+.abtw-soc a,
+.widget-border,
+.form-submit #submit,
+.navigation > li > a:before,
+.menu-wrapper > .menu > ul > li > a:before,
+.content-btn:hover,
+.box-small-icon:hover .trobica-icon,
+.to-top,
+.to-top::before {
+  background-color: #f96152;
+}
+
+.dsc-heading-style1 h5,
+a:hover,
+.content-title span,
+.table-content h3 > span,
+.slider-title span,
+.white-header .header-icon li.current-menu-parent > a,
+.white-header .navigation li.current-menu-parent > a,
+.white-header .menu-wrapper .menu ul li.current-menu-parent > a,
+.white-header .header-icon li.current_page_item > a,
+.white-header .navigation li.current_page_item > a,
+.white-header .menu-wrapper .menu ul li.current_page_item > a,
+.custom-absolute-menu .is-sticky .navigation li.current-menu-item a,
+.custom-absolute-menu .is-sticky .menu-wrapper .menu ul li.current-menu-item a,
+.custom-absolute-menu .is-sticky .navigation li a:hover,
+.custom-absolute-menu .is-sticky .menu-wrapper .menu ul li a:hover,
+.custom-absolute-menu .navigation .sub-menu li a:hover,
+.custom-absolute-menu .menu-wrapper .menu ul.sub-menu li a:hover,
+.white-header .navigation li a:hover,
+.white-header .menu-wrapper .navigation li ul li.current_page_item > a,
+.menu-wrapper .navigation li ul li.current_page_item > a,
+.menu-wrapper .menu ul li ul li.current_page_item > a,
+.white-header .menu-wrapper .menu ul li ul li.current_page_item > a,
+.white-header .menu-wrapper .navigation li ul li a:hover,
+.menu-wrapper .navigation li ul li a:hover,
+.menu-wrapper .menu ul li ul li a:hover,
+.white-header .menu-wrapper .menu ul li ul li a:hover,
+.header-icon li a:hover,
+.btn-nav-top a:hover,
+.slider-style-3 .slider-subtitle,
+.home-slider .slick-arrow:hover,
+.slider-btn:hover,
+.feature-1:hover .trobica-icon,
+.feature-2 .trobica-icon,
+.feature-2:hover .trobica-icon,
+.feature-3 .trobica-icon,
+.feature-3:hover .trobica-icon,
+.port-filter a.active,
+.port-filter a:hover,
+.portfolio-2 .port-inner:hover .dbox-relative h3 a:hover,
+.portfolio-2 .port-inner .port-dbox a span:hover,
+.portfolio-type-three .dbox-relative p,
+.team-1 p,
+.team-sicon li a:hover,
+.testimonial .rating-icon,
+.wpcf7-submit,
+.dark-page .wpcf7-submit,
+.content-btn,
+.color-bg .wpcf7-submit,
+span.your-email:before,
+span.your-name:before,
+span.your-message:before,
+.comment-form-email:before,
+span.cell-phone:before,
+span.subject:before,
+.footer a,
+.post-meta a,
+.post-meta li,
+.blog-post-list a:hover h3,
+.blog-2 .content-btn,
+a .entry-title:hover,
+.tags-bottom a:hover,
+.share-box a:hover,
+.related-cat i,
+h3.related-title:hover,
+#searchform::after,
+.tagcloud a,
+.tagcloud a:hover,
+.abtw-soc a:hover,
+.form-submit #submit:hover,
+.dsc-btn-style3:hover .elementor-button,
+.dsc-btn-style-4,
+code,
+.custom-absolute-menu .navigation .sub-menu li.current-menu-item a,
+.custom-absolute-menu .menu-wrapper .menu ul.sub-menu li.current-menu-item a {
+  color: #f96152;
+}
+
+.to-top,
+.content-title:after,
+::selection,
+::-moz-selection,
+.to-top::before,
+.to-top::after,
+.box-small-icon:hover .trobica-icon,
+.navigation > li > a:before,
+.menu-wrapper > .menu > ul > li > a:before,
+.custom-absolute-menu .is-sticky .navigation > li > a:before,
+.menu-wrapper > .menu > ul > li > a:before,
+.btn-nav-top a,
+.search-icon-header #searchform::after,
+.slider-line,
+.left-box-slider .slider-line,
+.center-box-slider .slider-line,
+.feature-4 .trobica-icon,
+.other-portfolio .port-box,
+.portfolio-type-three .port-inner:hover .dbox-relative a span,
+.team-2 .port-box,
+.content-btn:hover,
+.wpcf7-submit:hover,
+.dsc-footer-style-2 .mc4wp-form-fields input[type="submit"]:hover,
+.dsc-footer-style-3 h3:after,
+.dsc-footer-style-3 .mc4wp-form-fields input[type="submit"],
+.blog-link-img .bl-icon,
+.blog-link-img,
+.blog-gallery a i,
+.img-pagi,
+.widget-border,
+.ab-bordering,
+.abtw-soc a,
+.form-submit #submit,
+.dsc-btn-style3,
+.dsc-btn-style-4:hover,
+.tagcloud a:hover,
+.to-top,
+.portfolio-type-three .port-inner:hover .dbox-relative a span {
+  background: #f96152;
+}
+
+.p-table a,
+.blog-slider .slide-nav:hover,
+.work-content .slide-nav:hover,
+.tagcloud a:hover {
+  color: #fff;
+}
+
+.dsc-btn-style3 {
+  background-color: #fff;
+}
+
+blockquote,
+.box-small-icon:hover .trobica-icon,
+.cell-left-border,
+.cell-right-border,
+.menu-wrapper ul li ul,
+.btn-nav-top a,
+.btn-nav-top a:hover,
+.feature-4 .trobica-icon,
+.portfolio-2 .port-inner .port-dbox a span:hover,
+.portfolio-type-three .port-inner:hover .dbox-relative a span,
+.portfolio-type-three .port-inner:hover .dbox-relative h3,
+.team-sicon li a:hover,
+.team-1 .team-info,
+form input:focus,
+form textarea:focus,
+.comment-respond form input:focus,
+.comment-respond form textarea:focus,
+.wpcf7-submit,
+.dark-page .wpcf7-submit,
+.content-btn,
+.wpcf7-submit:hover,
+.error-title,
+.blog-2 .content-btn i,
+.tags-bottom a:hover,
+.share-box a:hover,
+#related_posts .related-inner:hover,
+.tagcloud a,
+.tagcloud a:hover,
+.form-submit #submit,
+.form-submit #submit:hover,
+.dsc-btn-style3:hover,
+.dsc-btn-style-4,
+.dsc-btn-style-4:hover,
+.wp-block-coblocks-click-to-tweet {
+  border-color: #f96152;
+}
+
+a:hover {
+  color: #f96152;
+}
+a {
+  color: #999999;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+body {
+  color: #666666;
+}
+.footer {
+  background-color: #202020;
+}
+.white-header .is-sticky .stuck-nav {
+  background-color: #ffffff;
+}
+.custom-absolute-menu {
+  border-color: #ffffff;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+/* Animate End */
+
+
+/* Arch Skin */
+
+
+  
+
+  
+  .navbar {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav-scroll {
+	background: #232323;
+  }
+  
+  .navbar .dropdown-menu {
+	background: #2a2a2a;
+  }
+  
+  .navbar .navbar-nav .dropdown-item:hover,
+  .main-color,
+  .progress-wrap::after{
+	color: #9E86EC!important;
+  }
+  
+  .navbar .dropdown-menu .dropdown-item:after, 
+  .back-color,
+  .line,
+  .cursor-inner,
+  .pace .pace-progress{
+	background: #9E86EC !important;
+  }
+
+  .cursor-outer{
+      border-color: #c5a47e !important;
+  }
+  
+  .main-content {
+	background: #232323;
+  }
+  
+  .color-font {
+	color: #c5a47e;
+	-webkit-text-fill-color: #c5a47e;
+	background: none;
+  }
+
+  .progress-wrap svg.progress-circle path{
+      stroke: #c5a47e;
+  }
+  
+  .sub-bg {
+	background: #1f1f1f;
+  }
+  
+  .line {
+	opacity: .1;
+  }
+  
+  .testimonials .item {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .testimonials .arrows .next, .testimonials .arrows .prev {
+	border-color: rgba(255, 255, 255, 0.3);
+	border-radius: 0;
+  }
+  
+  .team .item.cir .img:after {
+	display: none;
+  }
+
+
+
+
+
+  @media screen and (max-width: 991px){
+
+  .navbar .navbar-collapse {
+      max-height: 340px;
+      overflow: auto;
+      background: #262626;
+      text-align: center;
+      padding: 10px 15px;
+  }
+
+  .nav-scroll .navbar-collapse .active,
+  .light .navbar-collapse .active,
+  .navbar .navbar-nav .nav-link:hover{
+    color: #9E86EC !important;
+  }
+
+}

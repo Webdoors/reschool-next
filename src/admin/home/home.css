@@ -1,0 +1,39 @@
+
+
+.trs{
+    transition: all 3000s ease-in ;
+  
+}
+.a-courses-hide{
+    display: flex;
+    color: red!important;
+    flex-direction: column;
+    height: 0;
+    visibility: hidden;
+    display: none;
+  }
+
+
+
+
+  .a-courses-hide-show{
+    height: 100%;
+    visibility: visible;
+    max-height: 2000px;
+  }
+
+  .a-hover:hover{
+color: #9E86EC !important;
+cursor: pointer;
+  }
+
+
+  .content-page {
+    margin-left: 300px;
+    overflow: hidden;
+    padding: 0 15px 5px 15px;
+    margin-top: 100px;
+   
+
+}
+

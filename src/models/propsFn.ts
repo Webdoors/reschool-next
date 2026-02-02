@@ -1,0 +1,1 @@
+export type  PropsFn = <T>(value?: T)=> void 

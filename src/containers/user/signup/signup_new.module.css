@@ -1,0 +1,99 @@
+.btn {
+  transition: opacity ease-in-out 0.4s;
+  opacity: 0.4 !important;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 1 !important;
+}
+
+.reg_modal{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  top: 50px;
+  z-index: 1379;
+  background-color: rgb(17 18 21);
+  padding: 20px 0px;
+  -webkit-box-shadow: 0 0 5px 2px #000;
+  -moz-box-shadow: 0 0 5px 2px #000;
+  box-shadow: 0 0 5px 2px #000;
+
+
+}
+
+@media screen and (max-width: 1160px) {
+  .reg_modal{
+    position: fixed;
+  }
+  
+}
+.reg{
+  margin-bottom: 40px !important;
+}
+
+
+@media screen and (max-width: 760px) {
+  .reg{
+    font-size: 16px !important;
+    letter-spacing: 3px !important;
+    
+  }
+  .reg_modal{
+    position: absolute;
+  }
+}
+
+.reg__modal_heading{
+  margin-top: 30px;
+}
+
+.reg_modal_hide{
+  visibility: hidden;
+  opacity: 0;
+
+}
+.reg_modal_show{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.auth{
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  font-size: 14px !important;
+}
+
+
+.auth:hover::after {
+    position: absolute;
+    content: "";
+    display: flex;
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      rgb(18 194 233),
+      rgb(196 113 237),
+      rgb(246 79 89)
+    );
+    margin-top: 8px;
+    z-index: 30;
+ 
+}
+
+
+
+.success_btn{
+  display: flex;
+  background: #111215;
+  color: #fff;
+  max-width: 200px;
+  width: 100%
+}
+.success_btn:hover{
+ color: #000 !important;
+}
